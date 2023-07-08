@@ -22,6 +22,20 @@ body{
     transition: 1s ease-in;
 }
 
+.abt-sec-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.abt-sec-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /*nav related styles*/
 nav{
     display: flex;
@@ -53,16 +67,54 @@ nav a{
 /*header related styles*/
 
 .header{
-    background-color: #fff8f3
+    background-color: #fff8f3;
 }
 
 .banner{
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 650px;
+}
+
+.banner-intro{
+    max-width: 500px;
 }
 
 .profile-pic{
-    width: 400px;
+    width: 450px;
     margin-left: 500px;
+}
+
+.side-pic{
+    position: absolute;
+    height: 550px;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.hthree{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.hone{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* main section styles */
+
+/* about section styles */
+
+.about{
+    background-color: #fff8f3 ;
+    padding: 130px;
+    margin: 130px 0;
 }
