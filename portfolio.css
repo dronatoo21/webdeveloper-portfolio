@@ -160,4 +160,25 @@ main section{
     gap: 25px;
 }
 
+.res-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.res-item-title{
+    color: #474747;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.res-item-ins , .res-item-des{
+    color: #757575;
+    margin-top: 0;
+}
+
+.dw-cv{
+    margin-top: 50px;
+    text-align: center;
+}
 
